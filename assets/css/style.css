@@ -122,7 +122,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-	width: 100%;
+	width:100%;
+	height:auto;
 }
 
 .img-thumbnail {
@@ -1343,9 +1344,11 @@ body {
 .owl-carousel{
 	display: none;
 	position: relative;
-	width: 100%;
+	width: 40%;
 	-ms-touch-action: pan-y;
-	padding: 0;
+	border:solid 1px #5fb796;
+	/*background-color: #000;*/
+
 }
 .owl-carousel .owl-wrapper{
 	display: none;
