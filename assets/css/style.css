@@ -255,8 +255,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-family: 'Pacifico';
 	margin-top: 5px;
+	font-weight: 600;
 }
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
