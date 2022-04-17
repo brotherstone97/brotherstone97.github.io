@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>이거주세요</title>
-</head>
-<body>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
-<p><h1>이거주세요</h1></p>
+</head>
+<body class="detail">
+
+<p>
+<h1>이거주세요</h1></p><a href="./index.html" class="btn btn-primary pull-right" style="float: right">홈으로</a><br/>
+<hr/>
+
 <p>
 <h2>Repository</h2></p>
 <p>
@@ -21,7 +29,8 @@
     <b>단순하고 직관적인 UI/UX채택</b>, <b>고대비 적용</b>과 음성서비스에 익숙한 세대 특성을 고려해 <b>음성주문 기능</b>을
     탑재함으로써 기존 서비스보다 쉽게 사용할 수 있도록 했습니다.
 </p>
-<p><h2>Background</h2></p>
+<p>
+<h2>Background</h2></p>
 <p>과학기술의 발달과 코로나19로 비대면 무인시스템(키오스크)이 갈수록 늘어나고 있지만 디지털 정보 취약계층인 고령층에서는 사용에 어려움을 느끼는 경우가 대다수입니다.
     실제로 한국소비자원 주관 2019년부터 2020년까지 1년간 전자상거래 혹은 키오스크를 통해 비대면 거래 경험이 있는 65세 이상 고령 소비자를 대상으로 설문조사를 진행한 결과, 70% 이상의 고령 소비자층은
     비대면 거래에 어려움을 토로한 것으로 확인되었으며, 그 이유로는 ‘복잡한 단계(51.4%)’, 뒷사람 눈치가 보임(49.0%), 그림 ‘그림·글씨가 잘 안 보임(44.1%)’ 등이 있었습니다.
@@ -30,21 +39,64 @@
     위 통계자료에 기반한 단순하고 직관적인 UI/UX를 제공하여 편안한 주문 처리가 가능한 서비스 플랫폼을 개발하게 되었습니다.
 </p>
 
-<p><h2>Detail</h2></p>
+<p>
+<h2>Detail</h2></p>
 
 <p>
-위 개발배경에 따라 16pt이상의 폰트 크기, 배경색과 글자색의 명암대비를 높혀 고령층의 텍스트 구분에 어려움이 없도록 하였으며 모든 인터페이스의 크기를 키워 직관성을 더했습니다.
-또한 음성 주문 기능을 구현하기 위해 필요한 STT, TTS모듈은 react-native-voice라이브러리, Expo Speech API를 이용했고 STT모듈을 통해 텍스트화 한 사용자의 주문내용은
-KoNLPy의 OKT를 이용해 만든 NLP모듈을 거쳐 '메뉴이름'과 '수량'으로 분류되어 Dictionary형식으로 프론트엔드단에 리턴되도록 하였습니다.<br/>
-ex)불고기버거 세트 하나랑 치킨버거 두개주세요 => {'menu':['불고기버거세트','치킨버거'], 'count':[1, 2]}
+    위 개발배경에 따라 16pt이상의 폰트 크기, 배경색과 글자색의 명암대비를 높혀 고령층의 텍스트 구분에 어려움이 없도록 하였으며 모든 인터페이스의 크기를 키워 직관성을 더했습니다.
+    또한 음성 주문 기능을 구현하기 위해 필요한 STT, TTS모듈은 react-native-voice라이브러리, Expo Speech API를 이용했고 STT모듈을 통해 텍스트화 한 사용자의 주문내용은
+    KoNLPy의 OKT를 이용해 만든 NLP모듈을 거쳐 '메뉴이름'과 '수량'으로 분류되어 Dictionary형식으로 프론트엔드단에 리턴되도록 하였습니다.<br/>
+    ex)불고기버거 세트 하나랑 치킨버거 두개주세요 => {'menu':['불고기버거세트','치킨버거'], 'count':[1, 2]}
 </p>
 
-<p><h2>Review</h2></p>
+<p>
+<h2>Review</h2></p>
 <p>
     2021년 한국정보산업연합회 주관 이브와ICT공모전 참가작입니다. 원래 계획대로라면 메뉴 추천 시스템 구현과 지도API를 이용한 가맹점 선택 기능 등을 추가했어야 했지만
     마감기한 내 새로운걸 배우고 구현하는데 한계가 있어 기능을 축소할 수 밖에 없었던 점이 아쉬움으로 남습니다.
     그럼에도 이번 프로젝트를 통해 REST API기반의 풀스택 개발을 경험해볼 수 있었습니다.
     그리고 AWS의 여러가지 리소스를 사용해보며 Ubunt기반의 클라우드 환경과도 친숙해질 수 있었던 좋은 기회였습니다.
+</p>
+
+<p>
+<h2>Tech Stacks</h2></p>
+<p>
+<div class="row gap">
+    <ul class="project_description">
+        <li>
+            <div class="col-md-3 feature-name">
+                Front-End
+            </div>
+            <div class="col-md-9">
+                React Native, Expo
+            </div>
+        </li>
+        <li>
+            <div class="col-md-3 feature-name">
+                Back-End
+            </div>
+            <div class="col-md-9">
+                Django REST Framework
+            </div>
+        </li>
+        <li>
+            <div class="col-md-3 feature-name">
+                Database
+            </div>
+            <div class="col-md-9">
+                MariaDB
+            </div>
+        </li>
+        <li>
+            <div class="col-md-3 feature-name">
+                Deployment
+            </div>
+            <div class="col-md-9">
+                AWS(EC2, RDS, S3)
+            </div>
+        </li>
+    </ul>
+</div>
 </p>
 </body>
 </html>
