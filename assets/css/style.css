@@ -1114,6 +1114,8 @@ body {
 /*  FANCY HOVER
 /*-----------------------------------------------------------------------------------*/
 .direction-aware {
+	vertical-align: center;
+	margin: 5% 0% 10% 25%;
 	list-style: none;
 	position: relative;
 	overflow: hidden;
@@ -1123,7 +1125,6 @@ body {
 .direction-aware li.da-item {
 	float: left;
 	position: relative;
-	margin-bottom: 30px;
 	border-bottom: 5px solid transparent;
 }
 
