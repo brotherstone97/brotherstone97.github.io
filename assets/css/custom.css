@@ -1,25 +1,35 @@
-.greeting{
-    background-color:#747A8C
+.greeting {
+    background-color: #747A8C
 }
-.about-me .title{
+
+.about-me .title {
     font-size: 1.8em;
     font-weight: 600;
 }
 
-.about-me .contents{
+.about-me .contents {
     font-size: 1.3em
 }
 
-#skills{
+#skills {
     background-color: #8FA9BF;
 }
 
-.project-section{
+.project-section {
     background-color: #F2D091;
 }
 
-.project-content{
+.project-content {
     background-color: #fff;
     padding: 35px 35px;
     border-radius: 20px;
+}
+
+.project_description {
+    list-style-type: square;
+}
+
+.feature-name {
+    font-weight: 600;
+    font-size: 1em;
 }
