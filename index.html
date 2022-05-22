@@ -40,7 +40,9 @@
     <![endif]-->
 
     <script type="text/javascript">
-        document.oncontextmenu = () => {return false;}
+        document.oncontextmenu = () => {
+            return false;
+        }
         $(document).ready(function () {
             'use strict';
             jQuery('#headerwrap').backstretch([
@@ -156,25 +158,35 @@
                     <h2 class="section-heading"><strong>About me</strong></h2>
                 </div>
             </div>
-            <div class="row gap about-me">
-                <div class="col-md-3 text-left">
-                    <span class="title">이름</span><br/>
-                    <span class="contents">오형석</span>
-                </div>
-                <div class="col-md-3 text-left">
-                    <span class="title">연락처</span><br/>
-                    <span class="contents">010-6255-7191</span>
-                </div>
-                <div class="col-md-3 text-left">
-                    <span class="title">이메일</span><!--hover 등 처리해야함-->
-                    <a href="mailto:brotherstone97@gmail.com"><span class="contents">brotherstone97@gmail.com</span></a>
+            <div class="row gap">
+                <div class="col-md-9 text-left">
+                    <div class="row gap about-me">
+                        <div class="col-md-3 text-left">
+                            <span class="title">이름</span><br/>
+                            <span class="contents">오형석</span>
+                        </div>
+                        <div class="col-md-3 text-left">
+                            <span class="title">연락처</span><br/>
+                            <span class="contents">010-6255-7191</span>
+                        </div>
+                        <div class="col-md-3 text-left">
+                            <span class="title">이메일</span><!--hover 등 처리해야함-->
+                            <a href="mailto:brotherstone97@gmail.com"><span
+                                    class="contents">brotherstone97@gmail.com</span></a>
+                        </div>
+                    </div>
+                    <div class="row gap about-me">
+                        <div class="col-md-3 text-left">
+                            <span class="title">GitHub</span><br/>
+                            <a href="https://github.com/brotherstone97"><span class="contents">https://github.com/brotherstone97</span></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3 text-left">
                     <img src="./assets/img/offical_photo.jpg"/>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -406,7 +418,8 @@
                     <!-- carousel -->
                     <div class="row">
                         <div class="col-md-6">
-                            <ul class="direction-aware owl-carousel wow fadeInUp" style="width: 90%; height: auto; margin:5% 0% 10% 3%;" data-items="1"
+                            <ul class="direction-aware owl-carousel wow fadeInUp"
+                                style="width: 90%; height: auto; margin:5% 0% 10% 3%;" data-items="1"
                                 data-items-tablet="[768,2]"
                                 data-items-mobile="[479,1]">
                                 <!--1-->
@@ -433,7 +446,8 @@
                                 <li class="portfolio-item da-item">
                                     <a href="assets/img/project/ddareungi/2nd_raw_shrt_data.png" title="View Image"
                                        target="_blank">
-                                        <img src="assets/img/project/ddareungi/2nd_raw_shrt_data.png" class="img-responsive"
+                                        <img src="assets/img/project/ddareungi/2nd_raw_shrt_data.png"
+                                             class="img-responsive"
                                              alt="">
                                         <div>
                                             <div class="portfolio-hover-content">
@@ -455,7 +469,8 @@
                                     </a>
                                 </li>
                                 <li class="portfolio-item da-item">
-                                    <a href="assets/img/project/ddareungi/2nd_refined_shrt_data_post.png" title="View Image"
+                                    <a href="assets/img/project/ddareungi/2nd_refined_shrt_data_post.png"
+                                       title="View Image"
                                        target="_blank">
                                         <img src="assets/img/project/ddareungi/2nd_refined_shrt_data_post.png"
                                              class="img-responsive" alt="">
@@ -610,7 +625,8 @@
                                 <li class="portfolio-item da-item">
                                     <a href="assets/img/project/this_one/5_voice_order_main.jpg" title="View Image"
                                        target="_blank">
-                                        <img src="assets/img/project/this_one/5_voice_order_main.jpg" class="img-responsive"
+                                        <img src="assets/img/project/this_one/5_voice_order_main.jpg"
+                                             class="img-responsive"
                                              alt="">
                                         <div>
                                             <div class="portfolio-hover-content">
@@ -737,13 +753,16 @@
                     <!-- carousel -->
                     <div class="row">
                         <div class="col-md-6">
-                            <ul class="direction-aware owl-carousel wow fadeInUp" style="width: 90%; margin: 5% 0% 10% 3%" data-items="1"
+                            <ul class="direction-aware owl-carousel wow fadeInUp"
+                                style="width: 90%; margin: 5% 0% 10% 3%" data-items="1"
                                 data-items-tablet="[768,2]"
                                 data-items-mobile="[479,1]">
                                 <!--1-->
                                 <li class="portfolio-item da-item">
-                                    <a href="assets/img/project/movie/chart_list.png" title="View Image" target="_blank">
-                                        <img src="assets/img/project/movie/chart_list.png" class="img-responsive" alt="">
+                                    <a href="assets/img/project/movie/chart_list.png" title="View Image"
+                                       target="_blank">
+                                        <img src="assets/img/project/movie/chart_list.png" class="img-responsive"
+                                             alt="">
                                         <div>
                                             <div class="portfolio-hover-content">
                                                 <i class="pe-7s-close fa-3x"></i>
@@ -762,8 +781,10 @@
                                     </a>
                                 </li>
                                 <li class="portfolio-item da-item">
-                                    <a href="assets/img/project/movie/naver_detail.png" title="View Image" target="_blank">
-                                        <img src="assets/img/project/movie/naver_detail.png" class="img-responsive" alt="">
+                                    <a href="assets/img/project/movie/naver_detail.png" title="View Image"
+                                       target="_blank">
+                                        <img src="assets/img/project/movie/naver_detail.png" class="img-responsive"
+                                             alt="">
                                         <div>
                                             <div class="portfolio-hover-content">
                                                 <i class="pe-7s-close fa-3x"></i>
@@ -772,8 +793,10 @@
                                     </a>
                                 </li>
                                 <li class="portfolio-item da-item">
-                                    <a href="assets/img/project/movie/theater_list.png" title="View Image" target="_blank">
-                                        <img src="assets/img/project/movie/theater_list.png" class="img-responsive" alt="">
+                                    <a href="assets/img/project/movie/theater_list.png" title="View Image"
+                                       target="_blank">
+                                        <img src="assets/img/project/movie/theater_list.png" class="img-responsive"
+                                             alt="">
                                         <div>
                                             <div class="portfolio-hover-content">
                                                 <i class="pe-7s-close fa-3x"></i>
@@ -782,8 +805,10 @@
                                     </a>
                                 </li>
                                 <li class="portfolio-item da-item">
-                                    <a href="assets/img/project/movie/theater_deatil.png" title="View Image" target="_blank">
-                                        <img src="assets/img/project/movie/theater_deatil.png" class="img-responsive" alt="">
+                                    <a href="assets/img/project/movie/theater_deatil.png" title="View Image"
+                                       target="_blank">
+                                        <img src="assets/img/project/movie/theater_deatil.png" class="img-responsive"
+                                             alt="">
                                         <div>
                                             <div class="portfolio-hover-content">
                                                 <i class="pe-7s-close fa-3x"></i>
@@ -796,10 +821,11 @@
                         <div class="col-md-6">
                             <div class="row gap">
                                 <p>
-                                    모바일게임실무과목 2학년 2학기 기말과제입니다. 모바일 환경에서 동작하는 VR앱으로 HMD착용 후 고개를 움직여 앱 내 갤러리를 이동하며 좋아하는 가수의 뮤직비디오를
+                                    모바일게임실무과목 2학년 2학기 기말과제입니다. 모바일 환경에서 동작하는 VR앱으로 HMD착용 후 고개를 움직여 앱 내 갤러리를 이동하며 좋아하는
+                                    가수의 뮤직비디오를
                                     감상할 수 있습니다.
-<!--                                <p><a class="btn btn-primary mt20 pull-left"-->
-<!--                                      href="./project_detail/project_drug.html" target="_blank">자세히 보기</a></p>-->
+                                    <!--                                <p><a class="btn btn-primary mt20 pull-left"-->
+                                    <!--                                      href="./project_detail/project_drug.html" target="_blank">자세히 보기</a></p>-->
                             </div>
                             <div class="row gap">
                                 <ul class="project_description">
@@ -837,7 +863,8 @@
                     <!-- carousel -->
                     <div class="row">
                         <div class="col-md-6">
-                            <ul class="direction-aware owl-carousel wow fadeInUp" style="width: 90%; margin: 5% 0% 10% 3%" data-items="1"
+                            <ul class="direction-aware owl-carousel wow fadeInUp"
+                                style="width: 90%; margin: 5% 0% 10% 3%" data-items="1"
                                 data-items-tablet="[768,2]"
                                 data-items-mobile="[479,1]">
                                 <!--1-->
@@ -896,7 +923,8 @@
                         <div class="col-md-6">
                             <div class="row gap">
                                 <p>
-                                    모바일게임실무과목 2학년 2학기 기말과제입니다. 모바일 환경에서 동작하는 VR앱으로 HMD착용 후 고개를 움직여 앱 내 갤러리를 이동하며 좋아하는 가수의 뮤직비디오를
+                                    모바일게임실무과목 2학년 2학기 기말과제입니다. 모바일 환경에서 동작하는 VR앱으로 HMD착용 후 고개를 움직여 앱 내 갤러리를 이동하며 좋아하는
+                                    가수의 뮤직비디오를
                                     감상할 수 있습니다.
                                     <!--                                <p><a class="btn btn-primary mt20 pull-left"-->
                                     <!--                                      href="./project_detail/project_drug.html" target="_blank">자세히 보기</a></p>-->
@@ -936,7 +964,8 @@
                     <!-- carousel -->
                     <div class="row">
                         <div class="col-md-6">
-                            <ul class="direction-aware owl-carousel wow fadeInUp" style="width: 90%; margin: 10% 0% 10% 5%" data-items="1"
+                            <ul class="direction-aware owl-carousel wow fadeInUp"
+                                style="width: 90%; margin: 10% 0% 10% 5%" data-items="1"
                                 data-items-tablet="[768,2]"
                                 data-items-mobile="[479,1]">
                                 <!--1-->
@@ -956,10 +985,11 @@
                             <div class="row gap">
                                 <p>
                                     PHP Framework과목 2학년 2학기 기말과제입니다. 온라인으로 세기의 명화를 감상할 수 있는 Codeigniter기반의 웹사이트입니다.
-                                    Bootstrap5 반응형 레이아웃을 적용해 모든 환경에서 편리하게 이용가능하며 Gallery진입 후 화파 별로 분류된 작품을 감상할 수 있게 제작하였습니다.
+                                    Bootstrap5 반응형 레이아웃을 적용해 모든 환경에서 편리하게 이용가능하며 Gallery진입 후 화파 별로 분류된 작품을 감상할 수 있게
+                                    제작하였습니다.
                                 </p>
-<!--                                <p><a class="btn btn-primary mt20 pull-left"-->
-<!--                                      href="./project_detail/project_drug.html" target="_blank">자세히 보기</a></p>-->
+                                <!--                                <p><a class="btn btn-primary mt20 pull-left"-->
+                                <!--                                      href="./project_detail/project_drug.html" target="_blank">자세히 보기</a></p>-->
                             </div>
                             <div class="row gap">
                                 <ul class="project_description">
