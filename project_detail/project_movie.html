@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open API를 이용한 상영 중인 영화 정보 안내 앱</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/custom.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body class="detail">
+<p>
+<h1>Open API를 이용한 상영 중인 영화 정보 안내 앱</h1></p>
+<!--<a href="../index.html" class="btn btn-primary pull-right" style="float: right">홈으로</a><br/>-->
+<hr/>
+
+<p>
+<p>
+<h2>Summary</h2>
+</p>
+
+<p>
+    iOS프로그래밍 실무 3학년 1학기 기말과제입니다. 영화진응위원회의 일별 박스오피스 API와 영화 상세정보 API,
+    그리고 네이버 Developers의 영화 검색 API를 이용하여 <b>현재 상영 중인 영화를 안내</b>해주는 <b>SWIFT5 기반 iOS
+    Native앱</b>을 제작했습니다.
+</p>
+
+<p><h2>Detail</h2></p>
+<p>
+    앱 내 총 3개의 탭이 존재하며 탭 별로 기능을 구분했습니다.
+<p><b>Box Office Tab</b>에서는 어제 날짜 기준 상영중인 영화 리스트
+    를 표시하도록 했고 각 영화를 터치하면 해당 영화의 상세정보를 볼 수 있습니다. 또한 상세정보 내 네이버 영화 상세정보 버튼을
+    클릭하면 네이버 영화 포털 Web View가 띄워지며 네아버에서 제공하는 영화 상세정보를 확인할 수 있습니다.
+</p>
+<p>
+    <b>Theather Tab</b>에서는 모바일 네이버 지도 Web View를 띄우도록 했고 '영화관'이라는 단어를 자동검색어로 삽입하여 사용자의
+    현재 위치 기준 주변 영화관이 나타나도록 구현했습니다.
+</p>
+<p>
+    마지막으로 <b>Reservation Tab</b>에서는 모바일 CGV 예매 페이지 Web View를 띄우도록 했고 앱 내에서 영화예매까지 가능하
+    도록 했습니다.
+</p>
+</p>
+
+<p>
+    <h2>Review</h2>
+    <p>
+        이번 프로젝트를 계기로 Xcode를 이용한 온전한 native앱을 개발해볼 수 있었는데
+        온라인 컴파일러를 사용하면서 문법 공부할 때와는 많이 다르다는 것을 느꼈습니다.
+        특히 여러 개의 ViewController를 추가하고 class파일과 연결한 뒤, VC내의 오브젝트를 assist를 통해 outlet과 action을
+        추가하는 기본적인 것부터 AutoLayout을 구현하는 방법을 배울 수 있었습니다.
+        또한 VC간의 segue를 연결하고 데이터를 전달하는 방법도 정말 중요하다는 것을 깨달았고
+        RESTful방식의 Open API이용할 땐 어떤 방법으로 데이터를 다뤄야 하는지 배울 수 있었습니다.
+    </p>
+</p>
+<!--<p>-->
+<!--    보류- -->
+<!--</p>-->
+
+<p>
+<h2>Tech Stacks</h2></p>
+<p>
+<div class="row gap">
+    <ul class="project_description">
+        <li>
+            <div class="col-md-3 feature-name">
+                Front-End
+            </div>
+            <div class="col-md-9">
+                Swift5, Xcode
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
