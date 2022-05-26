@@ -1348,6 +1348,7 @@ body {
 	width: 40%;
 	-ms-touch-action: pan-y;
 	border:solid 1px #5fb796;
+	singleItem: True;
 	/*background-color: #000;*/
 
 }

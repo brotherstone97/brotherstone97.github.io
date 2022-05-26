@@ -17,7 +17,12 @@ $(document).ready(function(){
       "<i class='pe-7s-angle-left'></i>",
       "<i class='pe-7s-angle-right'></i>"
       ], 
-      autoPlay: 8000
+      autoPlay: 8000,
+      items:1,
+      // margin:10,
+      autoHeight:true,
+      loop:true,
+      singleItem: true
     });
 
     $('.owl-carousel-paged').owlCarousel({
